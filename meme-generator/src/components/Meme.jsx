@@ -8,6 +8,11 @@ export default function Meme() {
     })
     const [allMemes, setAllMemes] = useState([])
         
+    /**
+    useEffect takes a function as its parameter. If that function
+    returns something, it needs to be a cleanup function. Otherwise,
+    
+    */
     useEffect(() => {
         //Version 1 using async
         //
