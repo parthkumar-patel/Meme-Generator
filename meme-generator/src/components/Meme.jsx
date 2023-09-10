@@ -11,6 +11,7 @@ export default function Meme() {
     /**
     useEffect takes a function as its parameter. If that function
     returns something, it needs to be a cleanup function. Otherwise,
+    it should return nothing. If we make it an async function, it
     
     */
     useEffect(() => {
